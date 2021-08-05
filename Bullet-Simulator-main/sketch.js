@@ -14,7 +14,7 @@ thickness=random(22,83); //gives a random thickness number ranging from 22 to 83
 
 bullet=createSprite(50,200,50,20); //create the bulletsprite
 bullet.velocityX=speed; //sets the bullet velocity going diagonally by speed. setting velocityX to velocityY will make it go vertical.
-bullet.shapeColor=(209,197,0); //wall shape color can be customized. how to do it: bullet.shapeColor = (r,g,b)
+bullet.shapeColor=color(209,197,0); //wall shape color can be customized. how to do it: bullet.shapeColor=color(r,g,b)
 
 wall=createSprite(1200, 200, thickness, height / 2) //creates the wall sprite; sets length,width,thickness,height then divides it by 2
 wall.shapeColor=(255,255,255); //wall shapecolor can be customized. how to do it: wall.shapeColor = (r,g,b)
